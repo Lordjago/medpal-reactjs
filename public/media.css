@@ -1,0 +1,221 @@
+@media screen and (max-width: 768px) {
+    .header {
+      position: sticky;
+      width: 100%;
+    }
+    .nav-tabs {
+      width: 50%;
+      position: absolute;
+      top: 78px;
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      background-color: #fff;
+      align-items: center;
+      flex-direction: column;
+    }
+    .nav-link {
+      padding-left: 20px;
+      line-height: 40px;
+      width: 100%;
+      display: table;
+    }
+    a,
+    li {
+      text-decoration: none;
+      list-style: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .first-section {
+      margin-top: -60px;
+      padding: 0 10px;
+      height: 100%;
+    }
+    .btn:hover {
+      padding: 9px 15px;
+      background-color: #fff;
+      color: #1ccaff;
+      border: 1px solid #1ccaff;
+    }
+    a:hover {
+      color: #1ccaff;
+    }
+    .btn {
+      margin-bottom: 30px;
+    }
+    .page-message {
+      padding: 10px;
+      /* padding-left: 10px; */
+  
+      /* filter: blur(1px);
+          -webkit-filter: blur(1px); */
+    }
+    .page-title {
+      font-size: 90px;
+      line-height: 90px;
+      color: #1ccaff;
+      width: 100%;
+    }
+    .page-subtitle {
+      margin-top: 15px;
+      line-height: 30px;
+      width: 100%;
+    }
+    .tag {
+      margin-top: 30px;
+      padding: 10px;
+      grid-template-columns: 1fr 1fr;
+    }
+    .grid-container {
+      grid-template-columns: 1fr 1fr;
+    }
+    .process-container {
+      grid-template-columns: 1fr 1fr;
+    }
+    .footer-grid {
+      display: grid;
+      align-content: center;
+      text-align: center;
+      justify-content: space-around;
+      grid-template-columns: 1fr;
+      border-top: 1px solid #dedede;
+      width: 100%;
+      column-gap: 30px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 25px;
+    }
+    .social-media-links {
+      justify-content: center;
+    }
+    .cta-div {
+      height: 360px;
+    }
+    .cta-content {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .cta-content h1 {
+      font-size: 40px;
+      color: #fff;
+      font-weight: bolder;
+    }
+    .cta-content p {
+      color: #fff;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .page-image {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .nav-bar-toggle span i {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .header {
+      position: sticky;
+      width: 100%;
+    }
+    .nav-tabs {
+      width: 50%;
+      position: absolute;
+      top: 78px;
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      background-color: #fff;
+      align-items: center;
+      flex-direction: column;
+    }
+    .nav-link {
+      padding-left: 20px;
+      line-height: 40px;
+      width: 100%;
+      display: table;
+    }
+    a,
+    li {
+      text-decoration: none;
+      list-style: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .first-section {
+      margin-top: -60px;
+      padding: 0 20px;
+      height: 100%;
+    }
+    .btn:hover {
+      padding: 9px 15px;
+      background-color: #fff;
+      color: #1ccaff;
+      border: 1px solid #1ccaff;
+    }
+    a:hover {
+      color: #1ccaff;
+    }
+    .btn {
+      margin-bottom: 30px;
+    }
+    .page-message {
+      padding: 10px;
+      /* padding-left: 10px; */
+  
+      /* filter: blur(1px);
+          -webkit-filter: blur(1px); */
+    }
+    .page-title {
+      font-size: 50px;
+      line-height: 50px;
+      color: #1ccaff;
+      width: 100%;
+    }
+    .page-subtitle {
+      margin-top: 15px;
+      line-height: 30px;
+      width: 100%;
+    }
+    .tag {
+      margin-top: 30px;
+      padding: 10px;
+      grid-template-columns: 1fr;
+    }
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+    .process-container {
+      grid-template-columns: 1fr;
+    }
+    .cta-div {
+      height: 380px;
+    }
+    .cta-content {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .cta-content h1 {
+      font-size: 30px;
+      color: #fff;
+      font-weight: bolder;
+    }
+    .cta-content p {
+      color: #fff;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .page-image,
+    .left-image,
+    .right-image {
+      display: none;
+    }
+  }
+  
